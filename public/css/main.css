@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* por padrão é content-box, ou seja, conteúdo + paddings; desta forma irá de borda a borda */
+}
+
+:root {
+  font-size: 62.5%; /*equivale a 10px*/
+}
+
+body {
+  height: 100vh;
+  color: white;
+  background: #ebf2f5;
+}
+
+body,
+input,
+button,
+textarea {
+  font-family: "Nunito", sans-serif;
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 1;
+  /*é possível utilizar tudo isso em uma shorthand, que ficaria
+    font: 400 18px/1 'Nunito', sans-serif;*/
+}
+
